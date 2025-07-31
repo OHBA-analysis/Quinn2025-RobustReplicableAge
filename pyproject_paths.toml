@@ -1,0 +1,36 @@
+# The location of this file
+code_dir = '/rds/homes/q/quinna/code/Quinn2025-RobustReplicableAge/'
+output_dir = '/rds/projects/q/quinna-camcan/camcan_bigglm/'
+mri_output_dir = '/rds/projects/q/quinna-camcan/ajquinn-scripts/camcan_anat/'
+figure_dir = '/rds/homes/q/quinna/code/Quinn2025-RobustReplicableAge/figures/'
+
+[raw_data]
+
+cambridge = '/rds/projects/q/quinna-spectral-changes-in-ageing/mrc_meguk/raw_data/Cambridge/derivatives/'
+nottingham = '/rds/projects/q/quinna-spectral-changes-in-ageing/mrc_meguk/raw_data/Nottingham/'
+oxford = '/rds/projects/q/quinna-spectral-changes-in-ageing/mrc_meguk/raw_data/Oxford/derivatives/'
+camcam_movecomp = '/rds/projects/q/quinna-camcan/cc700/meg/pipeline/release005/BIDSsep/derivatives_rest/aa/AA_movecomp_transdef/aamod_meg_maxfilt_00003/'
+camcam_nomax = '/rds/projects/q/quinna-camcan/cc700/meg/pipeline/release005/BIDSsep/derivatives_rest/aa/AA_nomovecomp/aamod_meg_maxfilt_00001/'
+
+[preproc_base_name]
+
+cambridge = 'sub-{subj}/meg/sub-{subj}_task-{task}_proc-sss_meg.fif'
+nottingham = 'sub-{subj}/meg/sub-{subj}_task-{task}_meg.ds'
+oxford = 'sub-{subj}/meg/sub-{subj}_task-{task}_proc-sss_meg.fif'
+camcam_transdef = 'sub-{subj}/mf2pt2_sub-{subj}_ses-rest_task-rest_megtransdef.fif'
+camcan_raw = 'sub-{subj}/mf2pt2_sub-{subj}_ses-rest_task-rest_meg.fif'
+
+[data.glm]
+
+# Things to update
+camcan_group_dir = '/rds/projects/q/quinna-camcan/camcan_bigglm/processed-data/CamCAN_grouplevel'
+
+# Things probably not to update
+camcan_firstlevel_base = 'mf2pt2_sub-{subj}_ses-rest_task-rest_megtransdef-glm-{analysis}_{sensor}-{norm}.pkl'
+cambridge_firstlevel_base = 'sub-{subj}_task-{task}_proc-sss_meg-glm-{analysis}_{sensor}-{norm}.pkl'
+oxford_firstlevel_base = 'sub-{subj}_task-{task}_proc-sss_meg-glm-{analysis}_{sensor}-{norm}.pkl'
+nottingham_firstlevel_base = 'sub-{subj}_task-{task}_meg-glm-{analysis}_{sensor}-{norm}.pkl'
+
+group_glm_base = 'bigmeg-{dataset}_glm-{analysis}-{model}_{sensor}-{norm}_group-level.pkl'
+group_perm_base = 'bigmeg-{dataset}_glm-{analysis}-{model}_{sensor}-{norm}_group-level_perm-{contrast}.pkl'
+group_cf2_base = 'bigmeg-{dataset}_glm-{analysis}-{model}_{sensor}-{norm}_group-level_cf2-{contrast}.npy'
