@@ -1,5 +1,7 @@
 # Robust and replicable effects of ageing on resting state brain electrophysiology measured with MEG
 
+> Quinn, A. J., Pitt, J., Kohl, O., Gohil, C., van Es, M. W. J., Nobre, A. C., & Woolrich, M. W. (2025). Robust and replicable effects of ageing on resting state brain electrophysiology measured with MEG. Cold Spring Harbor Laboratory. https://doi.org/10.1101/2025.08.01.668093
+
 ## Installation
 
 Dependencies are contained within `pyproject.toml` and recommend using `uv` for installation. The following code creates a virtual environment with exact specifications in current directory (likely code root)
