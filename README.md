@@ -1,5 +1,7 @@
 # Robust and replicable effects of ageing on resting state brain electrophysiology measured with MEG
 
+> Quinn Andrew J, Pitt Jemma, Kohl Oliver, Gohil Chetan, van Es Mats WJ, Nobre Anna C, Woolrich Mark W (2025) Robust and replicable effects of ageing on resting state brain electrophysiology measured with MEG eLife 14:RP108829 https://doi.org/10.7554/eLife.108829.2
+
 > Quinn, A. J., Pitt, J., Kohl, O., Gohil, C., van Es, M. W. J., Nobre, A. C., & Woolrich, M. W. (2025). Robust and replicable effects of ageing on resting state brain electrophysiology measured with MEG. Cold Spring Harbor Laboratory. https://doi.org/10.1101/2025.08.01.668093
 
 ## Installation
